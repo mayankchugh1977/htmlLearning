@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+}
+
+
+.credentials{
+	display: flex;
+	align-items: center;
+	flex-direction: column;    
+	justify-content: center;
+	
+	font-family: sans-serif;
+	}	
+
+input{
+	width: 200px;
+	margin-top: 10px;
+}
+
+.Sub_button{
+	width: 200px;
+	background-color: red;
+    color: #fff;
+    
+    font-size: 22px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+	}
+
+.Sub_button:hover{
+	width: 200px;
+	background-color: green;
+    color: #fff;
+   
+    font-size: 22px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+	}
+	
+textarea{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	}
+	@media (max-width: 500px){
+		label {
+			color: green;
+		}
+	  }
+	
+	  @media (min-width: 500px) and (max-width: 1000px){
+		label {
+			color: red;
+		}
+	  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <!--Add bootstrap libraries here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="sign-in-button">
+        Sign In
+      </button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalSignUp" id="sign-up-button">
+            Sign Up
+          </button> 
+       <!--Add your code here-->
+<!-- Button trigger modal-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalConfirmDelete">Launch
+    modal</button>
+  
+  <!--Modal: modalConfirmDelete-->
+  <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+      <!--Content-->
+      <div class="modal-content text-center">
+        <!--Header-->
+        <div class="modal-header d-flex justify-content-center">
+          <p class="heading">Are you sure?</p>
+        </div>
+  
+        <!--Body-->
+        <div class="modal-body">
+  
+          <i class="fas fa-times fa-4x animated rotateIn"></i>
+  
+        </div>
+  
+        <!--Footer-->
+        <div class="modal-footer flex-center">
+          <a href="" class="btn  btn-outline-danger">Yes</a>
+          <a type="button" class="btn  btn-danger waves-effect" data-dismiss="modal">No</a>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!--Modal: modalConfirmDelete-->
+
+    </body>
+<script>$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })</script>
+</html>

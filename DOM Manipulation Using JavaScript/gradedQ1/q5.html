@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listners</title>
+</head>
+<body>
+    <h1>My Favourite books of all Time</h1>
+    <div>
+        <ul>
+            <li class="bookName">The Kite Runner</li>
+            <li class="bookName">The Kill A Mockingbird</li>
+            <li class="bookName">Kakfa </li>
+        </ul>
+    </div>
+    <script>
+        document.getElementsByClassName('bookName')[1].addEventListener("mousedown",function(){
+            alert("This book was published in 1960");
+        })
+    </script>
+</body>
+</html>

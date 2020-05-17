@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript loops</title>
+</head>
+<body>
+   <h1>Let's some JavaScript loops</h1>
+   <p class="customPara"></p>
+   <p class="customPara"></p>
+   <p class="customPara"></p>
+   <p class="customPara"></p>
+  <script>
+  var number = ["one", "two", "three" , "four"];
+            for(var i = 0; i<4;i++){
+                document.getElementsByClassName('customPara')[i].innerHTML = "This is the paragraph number "+number[i];
+           }
+</script>
+</body>
+</html>

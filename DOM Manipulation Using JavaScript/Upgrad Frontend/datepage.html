@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Date Field</title>
+<script>
+    function getValue() {
+        var date = document.getElementById("mydate").value;
+        alert(date);
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="mydate">Select Date:</label>
+        <input type="date" value="dd-mm-yyyy" id="mydate">
+        <button type="button" onclick="getValue();">Get Value</button>
+    </form>
+</body>
+</html>                            

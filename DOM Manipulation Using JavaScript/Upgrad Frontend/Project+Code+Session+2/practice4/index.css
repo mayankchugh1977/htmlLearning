@@ -1,0 +1,22 @@
+.header {
+}
+
+.topButtons {
+    background-color: blue;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    float: right;
+    margin:5px;
+}
+
+.logo-title{
+    font-family: 'Satisfy';
+    color: blue;
+    font-size: 30px;
+}
+
+.middleText{
+    font-family: 'Marck Script'
+}
