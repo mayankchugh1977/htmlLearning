@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adding HTML with Javascript</title>
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <h1>The Tech Chronicle</h1>
@@ -15,13 +19,12 @@
         Alexa, Cortana, and Google Assistant that can perform a range of impressive tasks for us, from controlling our IoT devices to doing 
         shopping for us!  </p>
         
-        <div for="likeBlog" class="likeBlogButton form-controls">  
-            <button id="likeBlog" >Liked</button>  Be the first one to like it  
-            <!--Create the like button here-->
-        </div> 
-       
+        <div class="likeBlogButton">    
+    <button  id= "likeBlog" onclick="postLiked()" style=" color:white;" ><span class="glyphicon" style=" color:white;">&#xe125;</span>Like</button> 
+    <span id="likeCount">Be the first one to like this!</span>
+  </div>
   <input type="textarea" placeholder="Add your comments" id="userComments" value="">
-    <button id="addList" onclick="addComments(userComments)">Comment</button>
+    <button id="addList" onclick="addComments(userComments)" style=" color:white;">Comment</button>
     <div id="addEventNames"></div>
     <script src="index.js"></script> 
 </body>

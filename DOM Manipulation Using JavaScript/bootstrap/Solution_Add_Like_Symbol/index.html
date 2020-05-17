@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adding HTML with Javascript</title>
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1>The Tech Chronicle</h1>
@@ -15,11 +16,10 @@
         Alexa, Cortana, and Google Assistant that can perform a range of impressive tasks for us, from controlling our IoT devices to doing 
         shopping for us!  </p>
         
-        <div for="likeBlog" class="likeBlogButton form-controls">  
-            <button id="likeBlog" >Liked</button>  Be the first one to like it  
-            <!--Create the like button here-->
-        </div> 
-       
+        <div class="likeBlogButton">    
+    <button  id= "likeBlog" onclick="postLiked()"><i class="fa fa-thumbs-up"> Like</i></button> 
+    <span id="commentCount">Be the first one to like this!</span>
+  </div>
   <input type="textarea" placeholder="Add your comments" id="userComments" value="">
     <button id="addList" onclick="addComments(userComments)">Comment</button>
     <div id="addEventNames"></div>
