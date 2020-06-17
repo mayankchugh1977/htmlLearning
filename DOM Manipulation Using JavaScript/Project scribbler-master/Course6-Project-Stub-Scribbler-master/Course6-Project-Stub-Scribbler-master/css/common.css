@@ -1,0 +1,79 @@
+body {
+    background-image: url('../images/background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+   height: 100%;
+}
+
+#main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.login-buttons-container{
+  padding: 10px;
+}
+
+.scribbler-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue-button{
+  background-color: blue;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  padding-left:5px;
+  color:white;
+  font-size: 14px;
+}
+
+.scribbler{
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  color: blue;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.sub-scribbler{
+  font-family: 'Marck Script', cursive;
+  font-size: 10;
+  color: black;
+  margin: 0;
+}
+
+.yellow-button{
+    background-color: yellow;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left:5px;
+    color:black;
+    font-size: 14px;
+    margin-left: 10px
+}
+.postButtons{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

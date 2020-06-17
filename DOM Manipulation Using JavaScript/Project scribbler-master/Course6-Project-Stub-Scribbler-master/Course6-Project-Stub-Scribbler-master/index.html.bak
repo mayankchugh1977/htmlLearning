@@ -1,42 +1,37 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
-
-  <title>ScriBBler</title>
-
-  <!-- Place all CSS for header in this file -->
-  <link href='css\header.css' rel='stylesheet' type='text/css'>
-
-  <!-- Place all CSS for the rest of the elements in this file -->
-  <link href='css\index.css' rel='stylesheet' type='text/css'>
-
-  <!-- Place all CSS for fonts in this file -->
-  <link href='css\font.css' rel='stylesheet' type='text/css'>
-
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ScriBBler Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/index.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="styles/common.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div id="main-container-div">
-    <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-    <div class="header">
-      <div class="title-container">
-        <p class="title">ScriBBler</p>
-        <p class="sub-title">Explore, Imagine, Create</p>
-      </div>
-      <div class="login-buttons-container">
-        <button onclick="showSignInModal()" class="blue-button" type="button">Sign In</button>
-        <button onclick="showSignUpModal()" class="blue-button" type="button">Sign Up</button>
-      </div>
-    </div>
+   	<div id="main-container">
+		<div class="header">
+			<div class="scribbler-container">
+				<p class="scribbler">ScriBBler</p>
+				<p class="sub-scribbler">Explore, Imagine, Create</p>
+			</div>
+			<div class="login-buttons-container">
+				<button onclick="showSignInModal()" class="blue-button" type="button">Sign In</button>
+				<button onclick="showSignUpModal()" class="blue-button" type="button">Sign Up</button>
+			</div>
+		</div>
+		<div class="postButtons">
+			<!-- Insert code for All Posts & Create Post button here -->
+			<button onclick="navigateToBlogList()" class="yellow-button" type="button">All posts</button>
+			<button onclick="showCreatePost()" class="yellow-button" type="button">Create post</button>
+		</div>
 
-    <div class="postButtons">
-      <!-- Insert code for All Posts & Create Post button here -->
-      <button onclick="navigateToBlogList()" class="yellow-button" type="button">All posts</button>
-      <button onclick="showCreatePost()" class="yellow-button" type="button">Create post</button>
-    </div>
-
-  </div>
+	</div>
 
     <div>
       <!-- Insert code for Sign In modal here -->
@@ -108,11 +103,8 @@
       </div>
   </div>
 
-  <!-- Place all Javascript for header in this file -->
-  <script src="js\header.js"></script>
-  <!-- Place all Javascript for rest of the elements in this file -->
-  <script src="js\index.js"></script>
-
+	<script src="scripts\index.js"></script>
+	<script src="scripts\common.js"></script>
 </body>
 
 </html>
