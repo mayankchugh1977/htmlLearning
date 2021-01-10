@@ -17,4 +17,3 @@ function registerEmployee(name, role){
         alert("Please input both the fields in the form.");
     }
 }
-

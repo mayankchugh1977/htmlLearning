@@ -27,7 +27,6 @@ var planetListObject = [
     }
 ];
 
-
 function addListOfEvents(){
     planetListObject.forEach(function(value,index){
         var template = '<ul>'+'<li>'+value.name +'</li>';
