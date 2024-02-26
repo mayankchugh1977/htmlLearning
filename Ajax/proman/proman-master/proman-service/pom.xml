@@ -1,3 +1,4 @@
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -55,14 +56,12 @@
             <version>${auth0.jwt.version}</version>
         </dependency>
 
-        <!-- apache commons framework -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${apache.commons.version}</version>
         </dependency>
 
-        <!-- logging framework -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -93,3 +92,4 @@
     </build>
 
 </project>
+-->
